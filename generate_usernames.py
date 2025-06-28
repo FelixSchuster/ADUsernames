@@ -19,7 +19,7 @@ def main():
         'admin', 'administrator', 'guest', 'user',
         'test', 'testing', 'anonymous', 'root',
         'toor', 'client', 'server', 'srv', 'srvc',
-        'service', 'office', 'info'
+        'service', 'office', 'info', 'backup'
     ]
 
     for line in file:
