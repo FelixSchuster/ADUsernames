@@ -35,6 +35,7 @@ def main():
                     usernames.append(fname[0] + delimiter + lname)
                     usernames.append(fname[0:2] + delimiter + lname)
                     usernames.append(fname[0:3] + delimiter + lname)
+                    usernames.append(fname[0:2] + delimiter + lname[0:2])
                     usernames.append(fname[0:3] + delimiter + lname[0:3])
                     usernames.append(fname + delimiter + lname)
                 lname, fname = fname, lname
